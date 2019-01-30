@@ -440,3 +440,18 @@ span.flair-bronze:before {background-position: 0 -890px;}
 }
 
 /* End Addon */ 
+
+/* Link arriba del logo de uruguay en el header */
+
+#header-bottom-left .redditname a:after{
+  display: block;
+  position: absolute;
+  content: '';
+  height: 300px;
+  width: 300px;
+  top: -160px;
+  left: 50vw;
+  transform: translate(-50%,0);
+}
+
+/* End Addon */ 
